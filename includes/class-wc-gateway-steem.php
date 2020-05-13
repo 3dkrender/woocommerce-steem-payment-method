@@ -298,11 +298,11 @@ class WC_Gateway_Steem extends WC_Payment_Gateway {
 			)				
 		);		
 		
-		$steemConnectUrl = "https://v2.steemconnect.com/sign/transfer?to=" . $payee . "&memo=" . $memo . "&amount=" . $amount . "%20" . $amount_currency ."&redirect_uri=" . urlencode($this->get_return_url($order));
+		$steemLoginUrl = "https://steemlogin.com/sign/transfer?to=" . $payee . "&memo=" . $memo . "&amount=" . $amount . "%20" . $amount_currency ."&redirect_uri=" . urlencode($this->get_return_url($order));
 		
 		$response = array(
 			'result' => 'success',
-			'redirect' => $steemConnectUrl
+			'redirect' => $steemLoginUrl
 		);
 
 		return $response;

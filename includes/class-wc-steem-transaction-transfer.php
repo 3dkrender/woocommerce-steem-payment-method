@@ -47,7 +47,7 @@ class WC_Steem_Transaction_Transfer {
 			return $transfer;
 		}
 		
-		$file_contents = file_get_contents("https://steakovercooked.com/api/steemit/transfer-history/?id=" . $data['to']);
+		$file_contents = file_get_contents("https://uploadbeta.com/api/steemit/transfer-history/?id=" . $data['to']);
 		
 		// If failure in retrieving url
 		if ($file_contents === false)
