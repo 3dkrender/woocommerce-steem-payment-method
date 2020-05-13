@@ -17,7 +17,7 @@ WooCommerce Steem Payment Method lets you accept Steem payments directly to your
 
 = Details =
 
-* There is no extra transaction fee. Payments are made directly between customer and store owner via SteemConnect. 
+* There is no extra transaction fee. Payments are made directly between customer and store owner via [SteemLogin](https://steemlogin.com/).
 * This plugin will automatically detect if payment was made once it is posted to Steem Blockchain. 
 * If payment is not completed within several minutes of submitting an order an automatic payment reminder email will be sent to the customer with instructions for submitting payment. This is a fallback for 1) the customer doesn't complete the transaction, and 2) the payment detection functionality in this plugin stops working for any reason.
 * Currency exchange rate between FIAT and STEEM/SBD is automatically calculated at time of checkout.
@@ -57,7 +57,9 @@ You will <strong>NOT</strong> be required to enter any steem private keys into t
 = Thanks =
 * Special thanks to [@justyy](https://steemit.com/@justyy) for providing free steem APIs. This plugin uses one of @justyy's apis to find matching transactions. Consider giving @justyy a vote for witness to support his efforts providing free steem APIs and other tools.
 
-* Special thanks to [@ReCrypto](https://steemit.com/@recrypto) for being the author and inventor of the original "WooCommerce Steem" plugin before it was forked and updated into this plugin "WooCommerce Steem Payment Method". Thank you @ReCrypto for sharing your hard work!
+* Special thanks to [@ReCrypto](https://steemit.com/@recrypto) for being the author and inventor of the original "WooCommerce Steem" plugin Thank you @ReCrypto for sharing your hard work!
+
+* Special thanks to [@sagescrub](https://steemit.com/@sagescrub) for for continuing the work of @ReCrypto and updated into this plugin "WooCommerce Steem Payment Method". 
 
 = Disclaimer =
 Authors claim no responsibility for missed transactions, loss of your funds, loss of customer funds, incorrect or delayed exchange rates or any other issue you may encounter as a result of using this plugin. Use this plugin at your own risk.
